@@ -1,0 +1,33 @@
+{
+  "description": "Debian Trixie KDE Desktop Environment",
+  "docker_registry": "bkrcldacr01prd.azurecr.io",
+  "image_src": "icon_debian.png",
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "exec_config": {
+    "go": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
+    },
+    "assign": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
+    }
+  },
+  "categories": [
+    "Desktop"
+  ],
+  "friendly_name": "Debian-Trixie",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.17.x",
+      "image": "desktop-debian-trixie:release",
+      "uncompressed_size_mb": 2170,
+      "available_tags": [
+        "release"
+      ]
+    }
+  ]
+}
