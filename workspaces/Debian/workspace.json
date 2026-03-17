@@ -11,7 +11,7 @@
   ],
   "compatibility": [
     {
-      "version": "1.17.x",
+      "version": "1.16",
       "image": "core-trixie-kde:release",
       "uncompressed_size_mb": 2970,
       "available_tags": [
