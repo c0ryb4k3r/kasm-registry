@@ -1,6 +1,7 @@
 {
   "description": "Debian Trixie KDE Desktop Environment",
   "docker_registry": "bkrcldacr01prd.azurecr.io",
+  "name": "bkrcldacr01prd.azurecr.io/core-trixie-kde:release",
   "image_src": "debian.png",
   "categories": [
     "Desktop"
@@ -11,8 +12,8 @@
   ],
   "compatibility": [
     {
-      "version": "1.16.x,1.17.x,1.18.x",
-      "image": "core-trixie-kde:release",
+      "version": "1.18.x",
+      "image": "bkrcldacr01prd.azurecr.io/core-trixie-kde:release",
       "uncompressed_size_mb": 2970,
       "available_tags": [
         "release"
