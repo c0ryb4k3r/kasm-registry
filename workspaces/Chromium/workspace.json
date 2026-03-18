@@ -26,10 +26,7 @@
     {
       "version": "1.18.x",
       "image": "kasmweb/chromium:1.18",
-      "uncompressed_size_mb": 2170,
-      "available_tags": [
-        "1.18"
-      ]
+      "uncompressed_size_mb": 2170
     }
   ]
 }

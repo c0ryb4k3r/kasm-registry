@@ -14,10 +14,7 @@
     {
       "version": "1.18.x",
       "image": "bkrcldacr01prd.azurecr.io/core-trixie-kde:release",
-      "uncompressed_size_mb": 2970,
-      "available_tags": [
-        "release"
-      ]
+      "uncompressed_size_mb": 2970
     }
   ]
 }
