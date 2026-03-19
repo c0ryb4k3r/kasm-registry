@@ -14,7 +14,7 @@
     {
       "version": "1.18.x",
       "image": "bkrcldacr01prd.azurecr.io/trixie-kde-desktop:release",
-      "uncompressed_size_mb": 4680
+      "uncompressed_size_mb": 6360
     }
   ]
 }
